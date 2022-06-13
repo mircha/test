@@ -1,0 +1,12 @@
+{
+    "version": "2",
+    "functions": {
+        ".*js": {
+            "runtime": "nodejs"
+        }
+    },
+    "rewrites": {
+        "source": "/(.*)",
+        "destination": "/"
+    }
+}
