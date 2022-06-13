@@ -1,0 +1,15 @@
+{
+    "functions": {
+        "api/*.js": {
+            "runtime": "node"
+        }
+    },
+    "rewrites": 
+        [
+            {
+                "source": "/(.*)",
+                "destination": "/"
+            }
+        ]
+    
+}
