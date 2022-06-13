@@ -1,7 +1,7 @@
 {
     "functions": {
         "api/*.js": {
-            "runtime": "node"
+            "runtime": "Node.js"
         }
     },
     "rewrites": 
