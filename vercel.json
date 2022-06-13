@@ -5,8 +5,12 @@
             "runtime": "nodejs"
         }
     },
-    "rewrites": {
-        "source": "/(.*)",
-        "destination": "/"
-    }
+    "rewrites": 
+        [
+            {
+                "source": "/(.*)",
+                "destination": "/"
+            }
+        ]
+    
 }
