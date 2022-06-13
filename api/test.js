@@ -1,6 +1,7 @@
 export default function test(req, res) {
-  const kanye =  fetch('https://api.kanye.rest').then(response => {
-    let kanye =  res.json()
+  const fetch = require('node-fetch');
+  fetch('https://api.kanye.rest').then(response => {
+    let kanye =  response.json()
     res.statusCode = 200;
     res.send({ kanye: kanye });
   })
