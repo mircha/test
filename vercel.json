@@ -1,9 +1,4 @@
 {
-    "functions": {
-        ".*js": {
-            "runtime": "nodejs"
-        }
-    },
     "rewrites": 
         [
             {
