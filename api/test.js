@@ -1,6 +1,5 @@
 export default function test(req, res) {
-  const kanye =  require('./kanye').getKanieRest();
-  const quote =  require('./quote').fetchQuote();
+  const kanye =  await (await fetch('https://api.kanye.rest')).json()
   res.statusCode = 200;
-  res.json({ kanye: kanye, quote: quote });
+  res.send({ kanye: kanye });
 }
