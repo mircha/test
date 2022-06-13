@@ -1,13 +1,8 @@
 {
-    "functions": {
-        "api/*.js": {
-            "runtime": "Node.js"
-        }
-    },
     "rewrites": 
         [
             {
-                "source": "/(.*)",
+                "source": "/api/test.js",
                 "destination": "/"
             }
         ]
